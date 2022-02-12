@@ -28,7 +28,8 @@ How to develop and build this project
 
 ### Roadmap
 
-- [ ] Setup project
+- [x] Setup project
+- [ ] Setup github actions
 - [ ] Upload and run code with platformio
 - [ ] Add support for LCD
 - [ ] Add support for web interface

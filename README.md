@@ -12,6 +12,7 @@ How to develop and build this project
 * Python 3.10.0
 * pipenv
 * ESP8266 board (I'm using ESP8266 NodeMCU v3)
+* Display OLED ISSD SSD1306
 
 ### Install platformio
 

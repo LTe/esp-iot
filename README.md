@@ -3,6 +3,12 @@
 This is a hobby project to control relay switch based on temperature
 and time. There should be also support for external LCD display.
 
+## Circuit
+
+[View details](https://www.circuito.io/app?components=513,11050,360216,985157)
+
+![Circut](assets/circut.png)
+
 ## Development
 
 How to develop and build this project

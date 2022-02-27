@@ -13,7 +13,7 @@ void LEDScreen::printCurrentState(BoardState state)
     display.setTextSize(2);
     display.setTextColor(SSD1306_WHITE);
     display.setCursor(0, 0);
-    display.println(String("Temp " + String(state.getCurrentTemperature(), 1) + "*C"));
+    display.println(String("Temp " + String(state.getCurrentTemperature(), 1) + "C"));
     display.setTextSize(1);
     display.println(String("WiFi " + state.getCurrentSSID()));
 

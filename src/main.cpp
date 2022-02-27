@@ -4,8 +4,9 @@
 #include <WiFiManager.h>
 #include <board_state.h>
 #include <connection_manager.h>
+#include <temperature.h>
 
-BoardState state(WiFi, 0);
+BoardState state(WiFi);
 LEDScreen led;
 ConnectionManager connectionManager;
 

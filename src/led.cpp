@@ -6,7 +6,7 @@ LEDScreen::LEDScreen()
     display = Adafruit_SSD1306(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 }
 
-void LEDScreen::printCurrentState(BoardState state)
+void LEDScreen::printCurrentState(BoardState &state)
 {
     display.clearDisplay();
 

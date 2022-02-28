@@ -5,6 +5,7 @@
 Temperature::Temperature()
 {
     wire = OneWire(D3);
+    setup();
 }
 
 void Temperature::setup(void)

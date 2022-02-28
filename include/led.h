@@ -25,7 +25,7 @@ class LEDScreen
 public:
     LEDScreen();
     void start();
-    void printCurrentState(BoardState state);
+    void printCurrentState(BoardState &state);
 };
 
 #endif

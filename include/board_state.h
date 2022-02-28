@@ -10,7 +10,7 @@ class BoardState
     ESP8266WiFiClass wifi;
 
 public:
-    BoardState(ESP8266WiFiClass wifi);
+    BoardState(ESP8266WiFiClass &wifi, Temperature &temperature);
     String getCurrentSSID();
     float getCurrentTemperature();
 };

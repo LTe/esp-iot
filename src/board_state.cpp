@@ -1,10 +1,10 @@
 #include <board_state.h>
 #include <temperature.h>
 
-BoardState::BoardState(ESP8266WiFiClass wifi)
+BoardState::BoardState(ESP8266WiFiClass &wifi, Temperature &temperature)
 {
   wifi = wifi;
-  temperature = Temperature();
+  temperature = temperature;
 
   temperature.setup();
 };
